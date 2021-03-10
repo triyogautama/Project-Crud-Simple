@@ -1,0 +1,80 @@
+
+
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .section {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+
+        /*Jika ingin menggunakan background gambar pada jumbotron gunakan kode ini*/
+        .jumbotron {
+            
+            /*background-image: url("1.jpg");
+            background-attachment: fixed;
+            height: 600px !important*/
+            margin-bottom:0; 
+            height: 400px
+        }
+
+        .big-logo {
+            font-size: 100px;
+        }
+
+        .small-logo {
+            font-size: 50px;
+        }
+
+
+        .bg-green {
+            background-color: #30bf81;
+        }
+
+
+         
+        .carousel-item h4 {
+            margin: 70px 0;
+        }
+        .carousel-item span {
+            font-style: normal;
+        }
+
+        .carousel-item i {
+            font-size: 100px;
+            border-radius: 50%
+        }
+
+        .panel {
+            border: 2px solid #37bae2;
+        }
+        .panel:hover {
+            box-shadow: 5px 15px 40px rgba(0,0,0, 0.2);
+        }   
+        .panel-heading {
+            background-color: orange !important;
+            color: white !important;
+            padding: 20px;
+
+        }
+
+        .panel-footer .btn:hover{
+            background-color: white;
+            color: deepskyblue;
+            border: deepskyblue 1px solid;
+        }
+        .panel-footer {
+            background-color: rgba(0,0,0, 0.05) !important;
+            padding: 20px
+        }
+        .panel-footer h4 {
+            font-weight: bold;
+            color: blue;
+        }
+
+        #contact a {
+            text-decoration: none;
+            /*font-weight: bold;*/
+            color: black;
+        }
